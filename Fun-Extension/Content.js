@@ -35,6 +35,7 @@ const generateSTYLES = () => {
      `;
   };
   
+  
   switch (window.location.hostname) {
     case "www.youtube.com":
       document.head.innerHTML = generateSTYLES();
