@@ -5,8 +5,7 @@ const generateSTYLES = () => {
         height: 500px; 
         background-repeat: no-repeat;
         background-position: center;
-        
-      color: #fff;
+    
       font-family: "Open Sans", sans-serif;
       max-height: 700px;
       overflow: hidden;
@@ -27,14 +26,13 @@ const generateSTYLES = () => {
         <div class="cloud x5"></div>
     </div>
     <div class='c'>
-        <div class='_404'>404</div>
         
-        <div class='_1'>GET BACK TO WORK</div>
-        <div class='_2'>STUDYING > ${pageName}</div>
+        <div class='_1'>This Device Is Not You</div>
+        <div class='_2'>Please Leave There > ${pageName}</div>
     </div>
      `;
   };
-  
+
   
   switch (window.location.hostname) {
     case "www.youtube.com":
